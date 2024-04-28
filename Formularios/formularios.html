@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+    </head>
+    <body>
+       <h1>Formulário</h1>
+       <form action="não definido" method="não definido">
+        <p>
+            <label for="nome">Nome: </label>
+            <input type="text" placeholder="Seu Nome: " id="nome"/>
+        </p>
+        <p>
+            <label for="email">E-mail: </label>
+            <input type="email" placeholder="Seu E-mail" id="email"/>
+        </p>
+        <p>
+            <label for="contato">Telefone: </label>
+            <input type="number" placeholder="Seu Contato" id="contato"/>
+        </p>
+        <p>
+            <label for="caixa">Solteiro(a)</label> 
+            <input type="radio" id="caixa" name="caixinha"/>
+            <label for="caixa2">Casado(a)</label>
+            <input type="radio" id="caixa2" name="caixinha"/>
+        </p>
+        <p>
+            Selecione a opção:
+            <select>
+                <option>Homem</option>
+                <option>Mulher</option>
+            </select>
+        </p>
+        <p>
+            <label for="check">Autoriza a compartilhar seus dados com terceiros ?</label>
+            <input type="checkbox" id="check"/>
+        </p>
+            <input type="submit" value="Enviar"/>
+       </form>
+    </body>
+</html>
