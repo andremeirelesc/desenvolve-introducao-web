@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+    </head>
+    <body>
+       <h1>Pesquisa de Satisfação</h1>
+       <form action="não definido" method="não definido">
+        <p>
+            <label for="nome">Nome: </label>
+            <input type="text" placeholder="Seu Nome: " id="nome"/>
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="Seu E-mail" id="email"/>
+        </p>
+        <p>
+            <label for="contato">Telefone:</label>
+            <input type="number" placeholder="Seu Contato" id="contato"/>
+        </p>
+        <p>
+            Gostou do evento ?
+            <label for="caixa">Sim</label> 
+            <input type="radio" id="caixa" name="caixinha"/>
+            <label for="caixa2">Não</label>
+            <input type="radio" id="caixa2" name="caixinha"/>
+        </p>
+            O evento atendeu suas expectativas ?
+            <label for="caixa3">Sim</label> 
+            <input type="radio" id="caixa3" name="caixinha2"/>
+            <label for="caixa4">Não</label>
+            <input type="radio" id="caixa4" name="caixinha2"/>
+        <p>
+            Dê uma nota de 1 a 10 para a experiência: 
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+        </p>
+        <p>
+            <label for="check">Autoriza a compartilhar seus dados com terceiros ?</label>
+            <input type="checkbox" id="check"/>
+        </p>
+            <input type="submit" value="Enviar"/>
+       </form>
+    </body>
+</html>
