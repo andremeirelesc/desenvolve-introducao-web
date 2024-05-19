@@ -1,0 +1,28 @@
+html {
+    background: #D9CCC1;
+    color:#023E73;
+
+    font-size: 20px;
+    font-family: helvetica, sans-serif;
+    
+ }
+
+ a {
+    color:#BF6415;
+ }
+
+ p {
+     text-indent: 1em;
+ }
+
+ h1, h2, h3 {
+   text-align: center;
+ }
+
+ h1 {font-size: 1.8rem;}
+ h2 { font-size: 1.4rem;}
+ h3{font-size: 1.2rem;}
+
+ .summary {text-align: right;}
+ .main {line-height: 1.5;}
+ abbr {font-variant: small-caps;}
